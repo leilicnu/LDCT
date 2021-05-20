@@ -5,6 +5,7 @@ main.py：
 modules.py：
   D,G,Vgg网络类
   
-creat_data.py：
+inout_util.py：
   data读取以及patch分割
   
+ 在main中训练以及测试
