@@ -62,7 +62,7 @@ class MyDataset(Dataset):
         h, w = ldct_images[0].shape
         patch_size = self.patch_size
         patch_stride = self.patch_stride
-        air_num = 0.3 * patch_size ** 2  # 空气占比30%
+        air_num = args.air_ratio * patch_size ** 2  # 空气占比
         ldct_patches = []
         ndct_patches = []
         for n in range(len(ldct_images)):
