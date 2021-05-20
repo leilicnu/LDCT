@@ -14,7 +14,7 @@ from modules import *
 
 parser = argparse.ArgumentParser(description='PyTorch WGAN_Vgg')
 parser.add_argument('--model', default='WGAN_Vgg', type=str, help='choose a type of model')
-parser.add_argument('--data_path', default='C:\\Users\\Team1\\lml\\LDCT\\Data\\Mayo_chest\\trainset',
+parser.add_argument('--data_path', default='C:\\Users\\Team1\\lml\\LDCT\\Data\\Mayo_abdomen\\trainset',
                     type=str, help='path of data')
 parser.add_argument('--save_path', default='C:\\Users\\Team1\\lml\\LDCT\\WGAN_Vgg\\abdomen', type=str, help='path of saved data')
 parser.add_argument('--save_iters', default=100, type=int, help='save frequency')
